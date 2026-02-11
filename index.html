@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Webpage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Professional Website</h1>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs">
+        <button class="tab-btn active" onclick="openTab(event, 'home')">Home</button>
+        <button class="tab-btn" onclick="openTab(event, 'about')">About</button>
+        <button class="tab-btn" onclick="openTab(event, 'subject')">Subject</button>
+    </nav>
+
+    <!-- Tab Content Sections -->
+
+    <section id="home" class="tab-content active">
+        <h2>Welcome to Home</h2>
+        <p>This is the home section of the website. You can introduce your purpose here.</p>
+    </section>
+
+    <section id="about" class="tab-content">
+        <h2>About Us</h2>
+        <p>This section contains information about the organization or individual.</p>
+    </section>
+
+    <section id="subject" class="tab-content">
+        <h2>Subjects</h2>
+        <p>Here you can describe subjects, courses, or topics.</p>
+    </section>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
