@@ -42,17 +42,49 @@
     <section id="feedback" class="tab-content">
     <h2>Feedback Form</h2>
 
+   <section id="feedback" class="tab-content">
+    <h2>Feedback Form</h2>
+
     <form id="feedbackForm">
+
+        <!-- Name -->
         <div class="form-group">
             <label for="name">Full Name</label>
             <input type="text" id="name" required>
         </div>
 
+        <!-- Email -->
         <div class="form-group">
             <label for="email">Email</label>
             <input type="email" id="email" required>
         </div>
 
+        <!-- Subject Dropdown -->
+        <div class="form-group">
+            <label for="subjectSelect">Select Subject</label>
+            <select id="subjectSelect" required>
+                <option value="">-- Choose Subject --</option>
+                <option value="Mathematics">Mathematics</option>
+                <option value="Science">Science</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="English">English</option>
+            </select>
+        </div>
+
+        <!-- Star Rating -->
+        <div class="form-group">
+            <label>Rate Us</label>
+            <div class="stars">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div>
+            <input type="hidden" id="ratingValue" required>
+        </div>
+
+        <!-- Feedback -->
         <div class="form-group">
             <label for="message">Your Feedback</label>
             <textarea id="message" rows="4" required></textarea>
@@ -62,6 +94,7 @@
         <p id="formMessage"></p>
     </form>
 </section>
+
 
 
     <!-- JavaScript File -->
