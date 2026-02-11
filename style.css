@@ -59,3 +59,26 @@ header {
 .tab-content.active {
     display: block;
 }
+/* Dropdown Styling */
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Star Rating Styling */
+.stars {
+    font-size: 28px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star {
+    transition: color 0.2s ease;
+}
+
+.star.active {
+    color: gold;
+}
+
