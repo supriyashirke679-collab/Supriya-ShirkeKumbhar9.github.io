@@ -54,7 +54,6 @@ stars.forEach(star => {
     });
 });
 
-
 // Enhanced Form Submission
 document.getElementById("feedbackForm").addEventListener("submit", function (e) {
     e.preventDefault();
@@ -75,4 +74,3 @@ document.getElementById("feedbackForm").addEventListener("submit", function (e) 
     this.reset();
     stars.forEach(s => s.classList.remove("active"));
 });
-
